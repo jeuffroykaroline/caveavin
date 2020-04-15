@@ -1,0 +1,29 @@
+
+
+
+#menu {
+    
+    display: flex ;
+    justify-content: center;
+    list-style-type: none;
+    margin-left:400px;
+  }
+
+  li a {
+    float: left;
+    color: black;
+    padding-left: 100px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.bienvenue{
+    display: flex;
+    padding-left: 185px;
+    padding-top: 613px;
+    text-align: center;
+
+}
+
+
+
