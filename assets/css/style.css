@@ -11,6 +11,7 @@ body{
   background-color: white;
   color: black;
   text-align: right;
+  
 }
 
 
@@ -55,7 +56,38 @@ li a {
 
 }
 
-/* ///////////////// Page d'acceuil /////////////////////*/
+/* ///////////////// PAGE CONTACT /////////////////////*/
+
+ 
+ 
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 383px;
+  height: auto;
+  margin-left: 1050px;
+  margin-top: 348px;
+} 
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+
+
+
+
+
 
 
 
