@@ -1,21 +1,51 @@
+/* ///////////////// En Commun /////////////////////*/
+
+body{
+  color: white;
+  background-color:black;
+}
+
+#rectangle {
+  width: 383px;
+  height: auto;
+  background-color: white;
+  color: black;
+  text-align: right;
+}
 
 
+article{
+  margin-left: 0px;
+  margin-top: 613px;
+}
+
+
+
+
+
+/*//////////// Header Logo + barre de navigation///////// */
 
 #menu {
     
-    display: flex ;
-    justify-content: center;
+    justify-content: right;
     list-style-type: none;
-    margin-left:400px;
+    margin-left:685px;
+    margin-right: 125px;
+    text-align: end;
+    display: inline;
+    
   }
 
-  li a {
+li a { 
     float: left;
-    color: black;
-    padding-left: 100px;
-    text-align: right;
+    color: white;
+    padding-left: 121px;
     text-decoration: none;
 }
+
+
+/* ///////////////// Page d'acceuil /////////////////////*/
+
 
 .bienvenue{
     display: flex;
@@ -24,6 +54,8 @@
     text-align: center;
 
 }
+
+/* ///////////////// Page d'acceuil /////////////////////*/
 
 
 
