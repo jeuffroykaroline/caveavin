@@ -65,6 +65,10 @@ nav li {
     margin-left: 600px;
   }
 
+ .dioDessin{
+  width: 50%;
+ }
+
 #blockLine {
   display: flex; 
   margin: 680px 
@@ -87,6 +91,8 @@ article{
   margin-left: 0px;
   margin-top: 253px;
 }
+
+
 
 
 
