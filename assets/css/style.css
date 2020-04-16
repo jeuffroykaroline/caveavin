@@ -1,4 +1,8 @@
 /* ///////////// Bacground //////////////*/
+div, section {
+  border: 1px solid white;
+
+}
 
 body{
   
@@ -14,7 +18,7 @@ body{
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   list-style-type: none;
   font-family: "DIN";
   src: url("../css/dinbold.ttf");
@@ -31,7 +35,7 @@ nav li {
   padding: 1rem;
   border-radius: 3rem ;
   width: 10rem;
-  align-content: center;
+  align-content: right;
   text-align: center;
   font-size: 1rem;
 }
@@ -54,11 +58,12 @@ nav li {
     margin: 9rem;
   }
 
-.photo2{
-  width: 864px;
-  height: 1064px;
-}
-
+  .dio{
+    margin-left: 600px;
+    
+    
+    
+  }
 
 #blockLine {
   display: flex;
@@ -94,6 +99,11 @@ article{
 
 }
 
+.photo2{
+  width: 864px;
+  height: 1064px;
+}
+
 
 
 /* ////////:::////BLOC PRODUITS///////////////// */ 
@@ -115,6 +125,7 @@ width: 200px;
 height: 200px;
 background-size: cover;
 border-radius: 5px;
+
 
 }
 
