@@ -1,23 +1,71 @@
-/* ///////////////// En Commun /////////////////////*/
+/* ///////////// Bacground //////////////*/
 
 body{
   
   color: white;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
   background-color:black;
+  
 }
 
-/* ///////////// Bacground //////////////*/
+/*//////////// Header Logo + barre de navigation///////// */
 
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: "DIN";
+  src: url("../css/dinbold.ttf");
+}
 
-   
-   
+nav li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
 
-#rectangle {
+nav li {
+  
+  padding: 1rem;
+  border-radius: 3rem ;
+  width: 10rem;
+  align-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+  /* ----- photo Dionysos ---- */
+
+  #home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7em;
+    
+  }
+
+  h1{
+    font-family: "DIOGENES";
+    src: url("../css/brightside.ttf");
+    font-size: 9rem;
+    margin: 9rem;
+  }
+
+.photo2{
+  
+}
+
+    
+  #rectangle {
   width: 383px;
   height: auto;
   background-color: white;
   color: black;
   text-align: right;
+  
 }
 
 
@@ -26,29 +74,6 @@ article{
   margin-top: 613px;
 }
 
-
-
-
-
-/*//////////// Header Logo + barre de navigation///////// */
-
-#menu {
-    
-    justify-content: right;
-    list-style-type: none;
-    margin-left:685px;
-    margin-right: 125px;
-    text-align: end;
-    display: inline;
-    
-  }
-
-li a { 
-    float: left;
-    color: white;
-    padding-left: 121px;
-    text-decoration: none;
-}
 
 
 /* ///////////////// Page d'acceuil /////////////////////*/
@@ -62,7 +87,38 @@ li a {
 
 }
 
-/* ///////////////// Page d'acceuil /////////////////////*/
+/* ///////////////// PAGE CONTACT /////////////////////*/
+
+ 
+ 
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 383px;
+  height: auto;
+  margin-left: 1050px;
+  margin-top: 348px;
+} 
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+
+
+
+
+
 
 
 
