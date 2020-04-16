@@ -55,9 +55,42 @@ nav li {
   }
 
 .photo2{
-  
+  width: 864px;
+  height: 1064px;
 }
 
+
+#blockLine {
+  display: flex;
+
+}
+
+#jaune{
+  padding: 20px;
+  margin: 15px 10px;
+  text-align: center;
+  background-color: #FFCC99;
+  text-align: center;
+  font-size: 19px;
+}
+
+#rouge{
+  padding: 20px;
+  margin: 15px 10px;
+  text-align: center;
+  background-color: #FFCC99;
+  text-align: center;
+  font-size: 19px;
+}
+
+#blanc{
+  padding: 20px;
+  margin: 15px 10px;
+  text-align: center;
+  background-color: #FFCC99;
+  text-align: center;
+  font-size: 19px;
+}
     
   #rectangle {
   width: 383px;
