@@ -1,21 +1,22 @@
-/* ///////////// Bacground //////////////*/
+/* ///////////// Background //////////////*/
 body{
   
   color: white;
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat;
   background-color:black;
   
 }
 
+
+
 /*//////////// Header Logo + barre de navigation///////// */
 
 #menu{
+
   position: fixed;
-  padding-left: 540px;
+  padding-left: 530px;
   justify-content: space-around;
   background-color: grey;
-  color: black;
+  color: white;
 }
 
 nav ul {
@@ -29,7 +30,7 @@ nav ul {
 
 nav li a {
   text-decoration: none;
-  color:black;
+  color:white;
   text-transform: uppercase;
 }
 
@@ -43,14 +44,14 @@ nav li {
   font-size: 1rem;
 }
 
-  /* ----- photo Dionysos ---- */
+
+  /* -----  ---- */
 
   #home{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
     margin-top: 7em;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat cover; 
     
   }
 
@@ -58,27 +59,39 @@ nav li {
     font-family: "DIOGENES";
     src: url("../css/brightside.ttf");
     font-size: 9rem;
-    margin: 9rem;
+    padding-left: 185px;
+    padding-top: 250px;
+
   }
 
   .dio{
-    margin-left: 600px;
+    margin-left: 100px;
+    margin-top:100px;
+  }
+
+  .dessin{
+    padding: 100px;
   }
 
  .dioDessin{
-  width: 50%;
+  width: 30%;
+ }
+
+ .photo2{
+   width: 40%;
  }
 
 #blockLine {
   display: flex; 
-  margin: 680px 
+  justify-content: start;
 }
 
-.section{
-  
+#blockline, .dioDessin{
+  display: flex;
+  align-content: center; 
 }
-    
-#rectangle {
+
+#rectangle{
   width: 300px;
   height: 20px;
   background-color: white;
@@ -107,8 +120,17 @@ article{
 }
 
 .photo2{
-  width: 864px;
-  height: 1064px;
+  width: 100%,
+
+}
+
+
+
+p{
+  padding-left: 600px;
+  padding-top: 0px;
+  margin-top: 0px;
+
 }
 
 
