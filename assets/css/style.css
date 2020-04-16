@@ -15,6 +15,10 @@ body{
 
 /*//////////// Header Logo + barre de navigation///////// */
 
+#menu{
+  position: fixed
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -61,20 +65,18 @@ nav li {
   .dio{
     margin-left: 600px;
     
-    
-    
   }
 
 #blockLine {
-  display: flex;
-  margin-left: 510px;
-  margin-top: 390px;
+  display: flex; 
+  margin: 680px 250px;
+  flex-direction: row-reverse;
 
 }
     
 #rectangle {
-  width: 383px;
-  height: auto;
+  width: 300px;
+  height: 20px;
   background-color: white;
   color: black;
   text-align: right;
@@ -83,7 +85,7 @@ nav li {
 
 article{
   margin-left: 0px;
-  margin-top: 613px;
+  margin-top: 253px;
 }
 
 
@@ -96,7 +98,6 @@ article{
     padding-left: 185px;
     padding-top: 613px;
     text-align: center;
-
 }
 
 .photo2{
@@ -111,8 +112,8 @@ article{
 
 
 #container{
-  padding: 20px;
-  margin: 15px 10px;
+  padding: 15px;
+  margin: 70px;
   text-align: center;
   background-color:white;
   text-align: center;
@@ -121,12 +122,9 @@ article{
 }
 
 .bouteille{
-width: 200px;
-height: 200px;
-background-size: cover;
-border-radius: 5px;
-
-
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
 }
 
 h2{
