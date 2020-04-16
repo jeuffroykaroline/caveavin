@@ -62,12 +62,12 @@ nav li {
 
 #blockLine {
   display: flex;
+  margin-left: 510px;
+  margin-top: 390px;
 
 }
-
-
     
-  #rectangle {
+#rectangle {
   width: 383px;
   height: auto;
   background-color: white;
@@ -92,6 +92,34 @@ article{
     padding-top: 613px;
     text-align: center;
 
+}
+
+
+
+/* ////////:::////BLOC PRODUITS///////////////// */ 
+
+
+
+#container{
+  padding: 20px;
+  margin: 15px 10px;
+  text-align: center;
+  background-color:white;
+  text-align: center;
+  font-size: 19px;
+  color: black;
+}
+
+.bouteille{
+width: 200px;
+height: 200px;
+background-size: cover;
+border-radius: 5px;
+
+}
+
+h2{
+  font-size: 20px;
 }
 
 /* ///////////////// PAGE CONTACT /////////////////////*/
@@ -120,30 +148,6 @@ input[type=text], select {
   resize: vertical 
 }
 
-
-/* ////////:::////BLOC PRODUITS///////////////// */ 
-
-
-
-#container{
-  padding: 20px;
-  margin: 15px 10px;
-  text-align: center;
-  background-color:white;
-  text-align: center;
-  font-size: 19px;
-  color: black;
-}
-
-.bouteille{
-width: 200px;
-height: 200px;
-background-size: cover;
-}
-
-h2{
-  font-size: 20px;
-}
 
 
 
