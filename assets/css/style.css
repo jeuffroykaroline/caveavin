@@ -1,9 +1,4 @@
 /* ///////////// Bacground //////////////*/
-div, section {
-  border: 1px solid white;
-
-}
-
 body{
   
   color: white;
@@ -68,14 +63,15 @@ nav li {
 
   .dio{
     margin-left: 600px;
-    
   }
 
 #blockLine {
   display: flex; 
-  margin: 680px 250px;
-  flex-direction: row-reverse;
+  margin: 680px 
+}
 
+.section{
+  
 }
     
 #rectangle {
