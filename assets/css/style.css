@@ -16,7 +16,9 @@ body{
 /*//////////// Header Logo + barre de navigation///////// */
 
 #menu{
-  position: fixed
+  position: fixed;
+  padding-left: 540px;
+  justify-content: space-around;
 }
 
 nav ul {
