@@ -1,11 +1,73 @@
-/* ///////////////// En Commun /////////////////////*/
+/* ///////////// Bacground //////////////*/
 
 body{
+  
   color: white;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
   background-color:black;
+  
 }
 
-#rectangle {
+/*//////////// Header Logo + barre de navigation///////// */
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: "DIN";
+  src: url("../css/dinbold.ttf");
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav li {
+  
+  padding: 1rem;
+  border-radius: 3rem ;
+  width: 10rem;
+  align-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+  /* ----- photo Dionysos ---- */
+
+  #home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7em;
+    
+  }
+
+  h1{
+    font-family: "DIOGENES";
+    src: url("../css/brightside.ttf");
+    font-size: 9rem;
+    margin: 9rem;
+  }
+
+.photo2{
+  width: 864px;
+  height: 1064px;
+}
+
+
+#blockLine {
+  display: flex;
+
+}
+
+
+    
+  #rectangle {
   width: 383px;
   height: auto;
   background-color: white;
@@ -14,35 +76,11 @@ body{
   
 }
 
-
 article{
   margin-left: 0px;
   margin-top: 613px;
 }
 
-
-
-
-
-/*//////////// Header Logo + barre de navigation///////// */
-
-#menu {
-    
-    justify-content: right;
-    list-style-type: none;
-    margin-left:685px;
-    margin-right: 125px;
-    text-align: end;
-    display: inline;
-    
-  }
-
-li a { 
-    float: left;
-    color: white;
-    padding-left: 121px;
-    text-decoration: none;
-}
 
 
 /* ///////////////// Page d'acceuil /////////////////////*/
@@ -84,6 +122,29 @@ input[type=text], select {
 
 
 /* ////////:::////BLOC PRODUITS///////////////// */ 
+
+
+
+#container{
+  padding: 20px;
+  margin: 15px 10px;
+  text-align: center;
+  background-color:white;
+  text-align: center;
+  font-size: 19px;
+  color: black;
+}
+
+.bouteille{
+width: 200px;
+height: 200px;
+background-size: cover;
+}
+
+h2{
+  font-size: 20px;
+}
+
 
 
 
