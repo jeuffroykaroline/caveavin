@@ -14,7 +14,7 @@ body{
   position: fixed;
   padding-left: 540px;
   justify-content: space-around;
-  background-color: white;
+  background-color: grey;
   color: black;
 }
 
@@ -144,6 +144,7 @@ h2{
   height: auto;
   margin-left: 1050px;
   margin-top: 348px;
+  margin-block-end: 150px;
 } 
 
 input[type=text], select {
@@ -157,6 +158,33 @@ input[type=text], select {
   resize: vertical 
 }
 
+#object{
+  width: 100%;
+  padding: 50px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  
+}
+
+
+
+
+/*/////// FOOTER ////////*/
+
+#navIcon {
+  display: none}
+
+footer{
+  height: 10px;
+  background-color:gray;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
 
 
 
