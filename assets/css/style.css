@@ -124,12 +124,9 @@ article{
 
 }
 
-
-
-p{
-  padding-left: 600px;
-  padding-top: 0px;
-  margin-top: 0px;
+#history {
+  display: flex;
+  padding: 0px 300px 0px 300px;
 
 }
 
